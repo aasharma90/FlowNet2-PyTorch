@@ -1,0 +1,366 @@
+batch_size: 8
+crop_size: [256, 256]
+cuda: True
+current_hash: b'74aedd173fc96ae0d45966091e8898b10de020ce'
+effective_batch_size: 8
+fp16: False
+fp16_scale: 1024.0
+gradient_clip: None
+grads: {}
+inference: True
+inference_batch_size: 1
+inference_dataset: ImagesFromFolder
+inference_dataset_class: <class 'datasets.ImagesFromFolder'>
+inference_dataset_iext: png
+inference_dataset_replicates: 1
+inference_dataset_root: ./datasets/Sample/
+inference_dir: ./results_Sample/inference
+inference_n_batches: -1
+inference_size: [448.0, 1024.0]
+log_file: ./results_Sample/args.txt
+log_frequency: 1
+loss: L1Loss
+loss_class: <class 'losses.L1Loss'>
+model: FlowNet2
+model_batchNorm: False
+model_class: <class 'models.FlowNet2'>
+model_div_flow: 20.0
+name: run
+no_cuda: False
+number_gpus: 1
+number_workers: 4
+optimizer: Adam
+optimizer_amsgrad: False
+optimizer_betas: (0.9, 0.999)
+optimizer_class: <class 'torch.optim.adam.Adam'>
+optimizer_eps: 1e-08
+optimizer_lr: 0.001
+optimizer_weight_decay: 0
+render_validation: False
+resume: ./checkpoints/FlowNet2_checkpoint.pth.tar
+rgb_max: 255.0
+save: ./results_Sample
+save_flow: True
+schedule_lr_fraction: 10
+schedule_lr_frequency: 0
+seed: 1
+skip_training: True
+skip_validation: True
+start_epoch: 1
+total_epochs: 1
+train_n_batches: -1
+training_dataset: MpiSintelFinal
+training_dataset_class: <class 'datasets.MpiSintelFinal'>
+training_dataset_replicates: 1
+training_dataset_root: ./MPI-Sintel/flow/training
+validation_dataset: MpiSintelClean
+validation_dataset_class: <class 'datasets.MpiSintelClean'>
+validation_dataset_replicates: 1
+validation_dataset_root: ./MPI-Sintel/flow/training
+validation_frequency: 5
+validation_n_batches: -1
+batch_size: 8
+crop_size: [256, 256]
+cuda: True
+current_hash: b'74aedd173fc96ae0d45966091e8898b10de020ce'
+effective_batch_size: 8
+fp16: False
+fp16_scale: 1024.0
+gradient_clip: None
+grads: {}
+inference: True
+inference_batch_size: 1
+inference_dataset: ImagesFromFolder
+inference_dataset_class: <class 'datasets.ImagesFromFolder'>
+inference_dataset_iext: png
+inference_dataset_replicates: 1
+inference_dataset_root: ./datasets/Sample/
+inference_dir: ./results_Sample/inference
+inference_n_batches: -1
+inference_size: [448.0, 1024.0]
+log_file: ./results_Sample/args.txt
+log_frequency: 1
+loss: L1Loss
+loss_class: <class 'losses.L1Loss'>
+model: FlowNet2C
+model_batchNorm: False
+model_class: <class 'models.FlowNet2C'>
+model_div_flow: 20
+name: run
+no_cuda: False
+number_gpus: 1
+number_workers: 4
+optimizer: Adam
+optimizer_amsgrad: False
+optimizer_betas: (0.9, 0.999)
+optimizer_class: <class 'torch.optim.adam.Adam'>
+optimizer_eps: 1e-08
+optimizer_lr: 0.001
+optimizer_weight_decay: 0
+render_validation: False
+resume: ./checkpoints/FlowNet2-C_checkpoint.pth.tar
+rgb_max: 255.0
+save: ./results_Sample
+save_flow: True
+schedule_lr_fraction: 10
+schedule_lr_frequency: 0
+seed: 1
+skip_training: True
+skip_validation: True
+start_epoch: 1
+total_epochs: 1
+train_n_batches: -1
+training_dataset: MpiSintelFinal
+training_dataset_class: <class 'datasets.MpiSintelFinal'>
+training_dataset_replicates: 1
+training_dataset_root: ./MPI-Sintel/flow/training
+validation_dataset: MpiSintelClean
+validation_dataset_class: <class 'datasets.MpiSintelClean'>
+validation_dataset_replicates: 1
+validation_dataset_root: ./MPI-Sintel/flow/training
+validation_frequency: 5
+validation_n_batches: -1
+batch_size: 8
+crop_size: [256, 256]
+cuda: True
+current_hash: b'74aedd173fc96ae0d45966091e8898b10de020ce'
+effective_batch_size: 8
+fp16: False
+fp16_scale: 1024.0
+gradient_clip: None
+grads: {}
+inference: True
+inference_batch_size: 1
+inference_dataset: ImagesFromFolder
+inference_dataset_class: <class 'datasets.ImagesFromFolder'>
+inference_dataset_iext: png
+inference_dataset_replicates: 1
+inference_dataset_root: ./datasets/Sample/
+inference_dir: ./results_Sample/inference
+inference_n_batches: -1
+inference_size: [448.0, 1024.0]
+log_file: ./results_Sample/args.txt
+log_frequency: 1
+loss: L1Loss
+loss_class: <class 'losses.L1Loss'>
+model: FlowNet2
+model_batchNorm: False
+model_class: <class 'models.FlowNet2'>
+model_div_flow: 20.0
+name: run
+no_cuda: False
+number_gpus: 1
+number_workers: 4
+optimizer: Adam
+optimizer_amsgrad: False
+optimizer_betas: (0.9, 0.999)
+optimizer_class: <class 'torch.optim.adam.Adam'>
+optimizer_eps: 1e-08
+optimizer_lr: 0.001
+optimizer_weight_decay: 0
+render_validation: False
+resume: ./checkpoints/FlowNet2_checkpoint.pth.tar
+rgb_max: 255.0
+save: ./results_Sample
+save_flow: True
+schedule_lr_fraction: 10
+schedule_lr_frequency: 0
+seed: 1
+skip_training: True
+skip_validation: True
+start_epoch: 1
+total_epochs: 1
+train_n_batches: -1
+training_dataset: MpiSintelFinal
+training_dataset_class: <class 'datasets.MpiSintelFinal'>
+training_dataset_replicates: 1
+training_dataset_root: ./MPI-Sintel/flow/training
+validation_dataset: MpiSintelClean
+validation_dataset_class: <class 'datasets.MpiSintelClean'>
+validation_dataset_replicates: 1
+validation_dataset_root: ./MPI-Sintel/flow/training
+validation_frequency: 5
+validation_n_batches: -1
+batch_size: 8
+crop_size: [256, 256]
+cuda: True
+current_hash: b'74aedd173fc96ae0d45966091e8898b10de020ce'
+effective_batch_size: 8
+fp16: False
+fp16_scale: 1024.0
+gradient_clip: None
+grads: {}
+inference: True
+inference_batch_size: 1
+inference_dataset: ImagesFromFolder
+inference_dataset_class: <class 'datasets.ImagesFromFolder'>
+inference_dataset_iext: png
+inference_dataset_replicates: 1
+inference_dataset_root: ./datasets/Sample/
+inference_dir: ./results_Sample/inference
+inference_n_batches: -1
+inference_size: [448.0, 1024.0]
+log_file: ./results_Sample/args.txt
+log_frequency: 1
+loss: L1Loss
+loss_class: <class 'losses.L1Loss'>
+model: FlowNet2
+model_batchNorm: False
+model_class: <class 'models.FlowNet2'>
+model_div_flow: 20.0
+name: run
+no_cuda: False
+number_gpus: 1
+number_workers: 4
+optimizer: Adam
+optimizer_amsgrad: False
+optimizer_betas: (0.9, 0.999)
+optimizer_class: <class 'torch.optim.adam.Adam'>
+optimizer_eps: 1e-08
+optimizer_lr: 0.001
+optimizer_weight_decay: 0
+render_validation: False
+resume: ./checkpoints/FlowNet2_checkpoint.pth.tar
+rgb_max: 255.0
+save: ./results_Sample
+save_flow: True
+schedule_lr_fraction: 10
+schedule_lr_frequency: 0
+seed: 1
+skip_training: True
+skip_validation: True
+start_epoch: 1
+total_epochs: 1
+train_n_batches: -1
+training_dataset: MpiSintelFinal
+training_dataset_class: <class 'datasets.MpiSintelFinal'>
+training_dataset_replicates: 1
+training_dataset_root: ./MPI-Sintel/flow/training
+validation_dataset: MpiSintelClean
+validation_dataset_class: <class 'datasets.MpiSintelClean'>
+validation_dataset_replicates: 1
+validation_dataset_root: ./MPI-Sintel/flow/training
+validation_frequency: 5
+validation_n_batches: -1
+batch_size: 8
+crop_size: [256, 256]
+cuda: True
+current_hash: b'74aedd173fc96ae0d45966091e8898b10de020ce'
+effective_batch_size: 8
+fp16: False
+fp16_scale: 1024.0
+gradient_clip: None
+grads: {}
+inference: True
+inference_batch_size: 1
+inference_dataset: ImagesFromFolder
+inference_dataset_class: <class 'datasets.ImagesFromFolder'>
+inference_dataset_iext: png
+inference_dataset_replicates: 1
+inference_dataset_root: ./datasets/Sample/
+inference_dir: ./results_Sample/inference
+inference_n_batches: -1
+inference_size: [448.0, 1024.0]
+log_file: ./results_Sample/args.txt
+log_frequency: 1
+loss: L1Loss
+loss_class: <class 'losses.L1Loss'>
+model: FlowNet2
+model_batchNorm: False
+model_class: <class 'models.FlowNet2'>
+model_div_flow: 20.0
+name: run
+no_cuda: False
+number_gpus: 1
+number_workers: 4
+optimizer: Adam
+optimizer_amsgrad: False
+optimizer_betas: (0.9, 0.999)
+optimizer_class: <class 'torch.optim.adam.Adam'>
+optimizer_eps: 1e-08
+optimizer_lr: 0.001
+optimizer_weight_decay: 0
+render_validation: False
+resume: ./checkpoints/FlowNet2_checkpoint.pth.tar
+rgb_max: 255.0
+save: ./results_Sample
+save_flow: True
+schedule_lr_fraction: 10
+schedule_lr_frequency: 0
+seed: 1
+skip_training: True
+skip_validation: True
+start_epoch: 1
+total_epochs: 1
+train_n_batches: -1
+training_dataset: MpiSintelFinal
+training_dataset_class: <class 'datasets.MpiSintelFinal'>
+training_dataset_replicates: 1
+training_dataset_root: ./MPI-Sintel/flow/training
+validation_dataset: MpiSintelClean
+validation_dataset_class: <class 'datasets.MpiSintelClean'>
+validation_dataset_replicates: 1
+validation_dataset_root: ./MPI-Sintel/flow/training
+validation_frequency: 5
+validation_n_batches: -1
+batch_size: 8
+crop_size: [256, 256]
+cuda: True
+current_hash: b'74aedd173fc96ae0d45966091e8898b10de020ce'
+effective_batch_size: 8
+fp16: False
+fp16_scale: 1024.0
+gradient_clip: None
+grads: {}
+inference: True
+inference_batch_size: 1
+inference_dataset: ImagesFromFolder
+inference_dataset_class: <class 'datasets.ImagesFromFolder'>
+inference_dataset_iext: png
+inference_dataset_replicates: 1
+inference_dataset_root: ./datasets/Sample/
+inference_dir: ./results_Sample/inference
+inference_n_batches: -1
+inference_size: [448.0, 1024.0]
+log_file: ./results_Sample/args.txt
+log_frequency: 1
+loss: L1Loss
+loss_class: <class 'losses.L1Loss'>
+model: FlowNet2
+model_batchNorm: False
+model_class: <class 'models.FlowNet2'>
+model_div_flow: 20.0
+name: run
+no_cuda: False
+number_gpus: 1
+number_workers: 4
+optimizer: Adam
+optimizer_amsgrad: False
+optimizer_betas: (0.9, 0.999)
+optimizer_class: <class 'torch.optim.adam.Adam'>
+optimizer_eps: 1e-08
+optimizer_lr: 0.001
+optimizer_weight_decay: 0
+render_validation: False
+resume: ./checkpoints/FlowNet2_checkpoint.pth.tar
+rgb_max: 255.0
+save: ./results_Sample
+save_flow: True
+schedule_lr_fraction: 10
+schedule_lr_frequency: 0
+seed: 1
+skip_training: True
+skip_validation: True
+start_epoch: 1
+total_epochs: 1
+train_n_batches: -1
+training_dataset: MpiSintelFinal
+training_dataset_class: <class 'datasets.MpiSintelFinal'>
+training_dataset_replicates: 1
+training_dataset_root: ./MPI-Sintel/flow/training
+validation_dataset: MpiSintelClean
+validation_dataset_class: <class 'datasets.MpiSintelClean'>
+validation_dataset_replicates: 1
+validation_dataset_root: ./MPI-Sintel/flow/training
+validation_frequency: 5
+validation_n_batches: -1

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PYTHONPATH=./utils/:$PYTHONPATH
+PYTHONPATH=./networks/:$PYTHONPATH
+export PYTHONPATH
